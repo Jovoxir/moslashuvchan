@@ -24,8 +24,33 @@ a {
   color: black;
 }
 
-@media only screen and(max-width:600px) {
+@media only screen and (max-width: 600px) {
   body {
-    background: blue;
+    background-color: rgb(49, 86, 165);
+  }
+  .container {
+    flex-direction: column;
+  }
+
+  ul {
+    flex-direction: column;
+  }
+
+  a {
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: yellow;
+  }
+
+  img {
+    border-radius: 50%;
+  }
+
+  a {
+    color: blue;
   }
 }
